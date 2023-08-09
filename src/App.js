@@ -1,19 +1,13 @@
-import logo from './arona.png';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Boss from "./Pages/Boss";
+import BossDetail from "./Pages/BossDetail";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="logo" width={250} height={250}/>
-        <p
-          className="App-link"
-        >
-          ToT
-        </p>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/boss" element={<Boss />} />
+      <Route path="/boss/detail" element={<BossDetail />} />
+    </Routes>
   );
 }
-
-export default App;
