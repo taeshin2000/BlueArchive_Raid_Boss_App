@@ -1,11 +1,11 @@
-import testBG from "../BG_CS_PV4_048.jpg";
+//import testBG from "../BG_CS_PV4_048.jpg";
 export default function BossDetail() {
   return (
     <div style={{ height: "100vh" }}>
       <div
         style={{
           height: "100vh",
-          backgroundImage: `url(${testBG})`,
+          backgroundImage: 'url("/images/Boss/ShiroKuro/ShiroKuro_BG.jpg")',
           backgroundPosition: "center,center",
         }}
       >
