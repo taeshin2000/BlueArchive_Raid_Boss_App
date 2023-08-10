@@ -1,6 +1,6 @@
 import Character from "./Character";
 
-export default function Team() {
+export default function Team({ team, index }) {
   return (
     <div
       style={{
@@ -31,10 +31,10 @@ export default function Team() {
           color: "#9D70FB",
         }}
       >
-        Team 1
+        Team {index + 1}
       </h3>
       <span style={{ fontSize: 20, color: "#9D70FB", fontWeight: 400 }}>
-        Approximate Score : 123456789
+        Approximate Score : {team.score}
       </span>
       <div
         style={{
@@ -45,10 +45,22 @@ export default function Team() {
           borderRadius: 10,
         }}
       >
-        <Character displayName={"Miyu"} name={"ch0218"} />
-        <Character displayName={"Hina"} name={"hina"} />
-        <Character displayName={"Yuzu"} name={"yuzu"} />
-        <Character displayName={"Aru"} name={"aru"} />
+        <Character
+          displayName={team.lineUp[0].displayName}
+          name={team.lineUp[0].name}
+        />
+        <Character
+          displayName={team.lineUp[1].displayName}
+          name={team.lineUp[1].name}
+        />
+        <Character
+          displayName={team.lineUp[2].displayName}
+          name={team.lineUp[2].name}
+        />
+        <Character
+          displayName={team.lineUp[3].displayName}
+          name={team.lineUp[3].name}
+        />
         <div
           style={{
             width: 5,
@@ -58,8 +70,14 @@ export default function Team() {
             marginBottom: 10,
           }}
         ></div>
-        <Character displayName={"Hibiki"} name={"hibiki"} />
-        <Character displayName={"Ako"} name={"ako"} />
+        <Character
+          displayName={team.lineUp[4].displayName}
+          name={team.lineUp[4].name}
+        />{" "}
+        <Character
+          displayName={team.lineUp[5].displayName}
+          name={team.lineUp[5].name}
+        />
       </div>
     </div>
   );

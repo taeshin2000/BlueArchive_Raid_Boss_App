@@ -1,7 +1,10 @@
 import Team from "./Team";
 import "../../index.css";
-
-export default function TeamList() {
+import { bossList } from "../../BossList";
+export default function TeamList({ bossName, difficulty, terrainIndex }) {
+  const team = bossList.find((boss) => boss.bossName === bossName).teams[
+    terrainIndex - 1
+  ];
   return (
     <div
       style={{
@@ -24,10 +27,11 @@ export default function TeamList() {
           gap: 12,
         }}
       >
-        <Team />
-        <Team />
-        <Team />
-        <Team />
+        {(difficulty === 1 ? team?.normal : team?.insane)?.map(
+          (team, index) => (
+            <Team team={team} index={index} key={index} />
+          )
+        )}
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import ToggleSwitch from "../components/bossDetail/ToggleSwitch/ToggleSwitch";
 import TeamList from "../components/ReccommendedTeams/TeamList";
 import BossName from "../components/bossDetail/RightPanel/BossName";
+import { bossList } from "../BossList";
 import { useEffect, useState } from "react";
 export default function BossDetail() {
   const { bossName } = useParams();
@@ -9,7 +10,7 @@ export default function BossDetail() {
   const [bossArmorType, setBossArmorType] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState(1);
   const [selectedTerrain, setSelectedTerrain] = useState(1);
-  const [firstTerrain, setFirstTerrain] = useState("");
+  const [firstTerrain, setFirstTerrain] = useState("HI");
   const [secondTerrain, setSecondTerrain] = useState("");
 
   useEffect(() => {
@@ -57,20 +58,11 @@ export default function BossDetail() {
   }
 
   function setTerrain() {
-    if (bossName === "Binah") {
-      setFirstTerrain("Outdoors");
-      setSecondTerrain("Urban");
-    } else if (
-      bossName === "ShiroKuro" ||
-      bossName === "HOD" ||
-      bossName === "Hieronymus"
-    ) {
-      setFirstTerrain("Indoors");
-      setSecondTerrain("Urban");
-    } else if (bossName === "Chesed" || bossName === "Perorozilla") {
-      setFirstTerrain("Indoors");
-      setSecondTerrain("Outdoors");
-    }
+    const terrains = bossList.find(
+      (boss) => boss.bossName === bossName
+    ).terrain;
+    setFirstTerrain(terrains[0]);
+    setSecondTerrain(terrains[1]);
   }
 
   return (
@@ -146,7 +138,11 @@ export default function BossDetail() {
               />
             </div>
             <p>Recommended Teams :</p>
-            <TeamList />
+            <TeamList
+              bossName={bossName}
+              difficulty={selectedDifficulty}
+              terrainIndex={selectedTerrain}
+            />
           </div>
         </div>
       </div>
