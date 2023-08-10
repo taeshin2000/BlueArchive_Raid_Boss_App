@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import ToggleSwitch from "../components/bossDetail/ToggleSwitch/ToggleSwitch";
+import TeamList from "../components/ReccommendedTeams/TeamList";
 import BossName from "../components/bossDetail/RightPanel/BossName";
 import { useEffect, useState } from "react";
 export default function BossDetail() {
@@ -144,6 +145,8 @@ export default function BossDetail() {
                 secondChoice={secondTerrain}
               />
             </div>
+            <p>Recommended Teams :</p>
+            <TeamList />
           </div>
         </div>
       </div>
