@@ -1,9 +1,11 @@
 import React from "react";
 
-const Choice = ({ choiceNumber, displayText, changeChoiceFunction }) => {
+const Choice = ({ choiceNumber, displayText, setSelectedChoice }) => {
   return (
     <div
-      onClick={() => changeChoiceFunction(choiceNumber)}
+      onClick={() => {
+        setSelectedChoice(choiceNumber);
+      }}
       style={{
         fontWeight: 400,
         padding: "10px 16px",
