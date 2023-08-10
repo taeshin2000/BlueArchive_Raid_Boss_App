@@ -4,9 +4,13 @@ import { useState, useRef, useEffect } from "react";
 import Slider from "./Slider";
 import Choice from "./Choice";
 
-const ToggleSwitch = ({ isDifficulty, firstChoice, secondChoice }) => {
-  const [selectedChoice, setSelectedChoice] = useState(1);
-
+const ToggleSwitch = ({
+  selectedChoice,
+  setSelectedChoice,
+  isDifficulty,
+  firstChoice,
+  secondChoice,
+}) => {
   const switchParentRef = useRef();
   const [width, setWidth] = useState(0);
   useEffect(() => {
@@ -15,11 +19,7 @@ const ToggleSwitch = ({ isDifficulty, firstChoice, secondChoice }) => {
       return;
     }
     setWidth(switchParentRef?.current?.clientWidth);
-  }, [switchParentRef?.current?.clientHeight]);
-
-  function ChangeChoice(choice) {
-    setSelectedChoice(choice);
-  }
+  }, [switchParentRef?.current?.clientWidth, width]);
 
   return (
     <div
@@ -38,15 +38,15 @@ const ToggleSwitch = ({ isDifficulty, firstChoice, secondChoice }) => {
       <Choice
         choiceNumber={1}
         displayText={firstChoice}
-        changeChoiceFunction={ChangeChoice}
+        setSelectedChoice={setSelectedChoice}
       />
       <Choice
         choiceNumber={2}
         displayText={secondChoice}
-        changeChoiceFunction={ChangeChoice}
+        setSelectedChoice={setSelectedChoice}
       />
       <Slider
-        displayText={selectedChoice == 1 ? firstChoice : secondChoice}
+        displayText={selectedChoice === 1 ? firstChoice : secondChoice}
         parentWidth={width}
         selectedChoice={selectedChoice}
         isDifficulty={isDifficulty}

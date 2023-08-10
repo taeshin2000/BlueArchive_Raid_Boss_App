@@ -1,8 +1,78 @@
 import { useParams } from "react-router-dom";
 import ToggleSwitch from "../components/bossDetail/ToggleSwitch/ToggleSwitch";
 import TeamList from "../components/ReccommendedTeams/TeamList";
+import BossName from "../components/bossDetail/RightPanel/BossName";
+import { useEffect, useState } from "react";
 export default function BossDetail() {
   const { bossName } = useParams();
+  const [bossAttackType, setBossAttackType] = useState("");
+  const [bossArmorType, setBossArmorType] = useState("");
+  const [selectedDifficulty, setSelectedDifficulty] = useState(1);
+  const [selectedTerrain, setSelectedTerrain] = useState(1);
+  const [firstTerrain, setFirstTerrain] = useState("");
+  const [secondTerrain, setSecondTerrain] = useState("");
+
+  useEffect(() => {
+    setStartDifficultyDisplay();
+    setTerrain();
+    setArmorDisplay();
+    setAttackDisplay();
+  }, []);
+
+  useEffect(() => {
+    console.log(selectedDifficulty);
+    setAttackDisplay();
+  }, [selectedDifficulty]);
+
+  function setArmorDisplay() {
+    if (bossName === "Binah" || bossName === "Chesed" || bossName === "HOD") {
+      setBossArmorType("Heavy Armor");
+    } else if (
+      bossName === "ShiroKuro" ||
+      bossName === "Perorozilla" ||
+      bossName === "Goz"
+    ) {
+      setBossArmorType("Special Armor");
+    } else {
+      setBossArmorType("Light Armor");
+    }
+  }
+
+  function setAttackDisplay() {
+    if (selectedDifficulty !== 2) {
+      setBossAttackType("Normal");
+    } else {
+      if (bossName === "Binah" || bossName === "ShiroKuro") {
+        setBossAttackType("Penetration");
+      } else if (bossName === "Perorozilla" || bossName === "HOD") {
+        setBossAttackType("Mystic");
+      } else {
+        setBossAttackType("Explosive");
+      }
+    }
+  }
+
+  function setStartDifficultyDisplay() {
+    setSelectedDifficulty(1);
+  }
+
+  function setTerrain() {
+    if (bossName === "Binah") {
+      setFirstTerrain("Outdoors");
+      setSecondTerrain("Urban");
+    } else if (
+      bossName === "ShiroKuro" ||
+      bossName === "HOD" ||
+      bossName === "Hieronymus"
+    ) {
+      setFirstTerrain("Indoors");
+      setSecondTerrain("Urban");
+    } else if (bossName === "Chesed" || bossName === "Perorozilla") {
+      setFirstTerrain("Indoors");
+      setSecondTerrain("Outdoors");
+    }
+  }
+
   return (
     <div
       style={{
@@ -50,10 +120,16 @@ export default function BossDetail() {
               padding: "16px 10px",
             }}
           >
-            <div style={{ fontSize: 48 }}>{bossName}</div>
+            <BossName
+              name={bossName}
+              armorType={bossArmorType}
+              attackType={bossAttackType}
+            />
             <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
               <p>Boss Difficulty:</p>
               <ToggleSwitch
+                selectedChoice={selectedDifficulty}
+                setSelectedChoice={setSelectedDifficulty}
                 isDifficulty={true}
                 firstChoice={"Normal-Extreme"}
                 secondChoice={"Insane"}
@@ -62,9 +138,11 @@ export default function BossDetail() {
             <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
               <p>Terrain:</p>
               <ToggleSwitch
+                selectedChoice={selectedTerrain}
+                setSelectedChoice={setSelectedTerrain}
                 isDifficulty={false}
-                firstChoice={"Indoors"}
-                secondChoice={"OutDoors"}
+                firstChoice={firstTerrain}
+                secondChoice={secondTerrain}
               />
             </div>
             <p>Recommended Teams :</p>
