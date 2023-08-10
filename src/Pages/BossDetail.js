@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import ToggleSwitch from "../components/bossDetail/ToggleSwitch/ToggleSwitch";
+import TeamList from "../components/ReccommendedTeams/TeamList";
 export default function BossDetail() {
   const { bossName } = useParams();
   return (
@@ -66,6 +67,8 @@ export default function BossDetail() {
                 secondChoice={"OutDoors"}
               />
             </div>
+            <p>Recommended Teams :</p>
+            <TeamList />
           </div>
         </div>
       </div>

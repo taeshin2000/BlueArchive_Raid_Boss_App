@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Boss from "./pages/Boss";
-import BossDetail from "./pages/BossDetail";
+import Boss from "./Pages/Boss";
+import BossDetail from "./Pages/BossDetail";
 
 import "./App.css";
 
