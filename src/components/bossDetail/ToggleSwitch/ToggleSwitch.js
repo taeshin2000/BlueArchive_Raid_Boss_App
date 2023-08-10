@@ -19,7 +19,7 @@ const ToggleSwitch = ({
       return;
     }
     setWidth(switchParentRef?.current?.clientWidth);
-  }, [switchParentRef.current.clientWidth, width]);
+  }, [switchParentRef?.current?.clientWidth, width]);
 
   return (
     <div
