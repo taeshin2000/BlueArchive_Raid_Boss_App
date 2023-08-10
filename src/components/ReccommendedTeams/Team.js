@@ -1,6 +1,6 @@
 import Character from "./Character";
 
-export default function Team({ team }) {
+export default function Team({ team, index }) {
   return (
     <div
       style={{
@@ -31,10 +31,10 @@ export default function Team({ team }) {
           color: "#9D70FB",
         }}
       >
-        Team 1
+        Team {index + 1}
       </h3>
       <span style={{ fontSize: 20, color: "#9D70FB", fontWeight: 400 }}>
-        Approximate Score : 123456789
+        Approximate Score : {team.score}
       </span>
       <div
         style={{
