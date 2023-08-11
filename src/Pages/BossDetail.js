@@ -1,9 +1,10 @@
 import { useParams } from "react-router-dom";
-import ToggleSwitch from "../components/bossDetail/ToggleSwitch/ToggleSwitch";
-import TeamList from "../components/ReccommendedTeams/TeamList";
-import BossName from "../components/bossDetail/RightPanel/BossName";
-import { bossList } from "../BossList";
 import { useEffect, useState } from "react";
+
+import { bossList } from "../BossList";
+
+import RightPanel from "../components/bossDetail/RightPanel/RightPanel";
+
 export default function BossDetail() {
   const { bossName } = useParams();
   const [bossAttackType, setBossAttackType] = useState("");
@@ -58,11 +59,13 @@ export default function BossDetail() {
   }
 
   function setTerrain() {
-    const terrains = bossList.find(
-      (boss) => boss.bossName === bossName
-    ).terrain;
-    setFirstTerrain(terrains[0]);
-    setSecondTerrain(terrains[1]);
+    const terrains = bossList?.find(
+      (boss) => boss?.bossName === bossName
+    )?.terrain;
+    if (terrains) {
+      setFirstTerrain(terrains[0]);
+      setSecondTerrain(terrains[1]);
+    }
   }
 
   return (
@@ -103,47 +106,17 @@ export default function BossDetail() {
           >
             <p>Left</p>
           </div>
-          <div
-            style={{
-              flex: 1,
-              display: "flex",
-              flexDirection: "column",
-              gap: 10,
-              padding: "16px 10px",
-            }}
-          >
-            <BossName
-              name={bossName}
-              armorType={bossArmorType}
-              attackType={bossAttackType}
-            />
-            <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-              <p>Boss Difficulty:</p>
-              <ToggleSwitch
-                selectedChoice={selectedDifficulty}
-                setSelectedChoice={setSelectedDifficulty}
-                isDifficulty={true}
-                firstChoice={"Normal-Extreme"}
-                secondChoice={"Insane"}
-              />
-            </div>
-            <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-              <p>Terrain:</p>
-              <ToggleSwitch
-                selectedChoice={selectedTerrain}
-                setSelectedChoice={setSelectedTerrain}
-                isDifficulty={false}
-                firstChoice={firstTerrain}
-                secondChoice={secondTerrain}
-              />
-            </div>
-            <p>Recommended Teams :</p>
-            <TeamList
-              bossName={bossName}
-              difficulty={selectedDifficulty}
-              terrainIndex={selectedTerrain}
-            />
-          </div>
+          <RightPanel
+            bossName={bossName}
+            bossArmorType={bossArmorType}
+            bossAttackType={bossAttackType}
+            selectedDifficulty={selectedDifficulty}
+            setSelectedDifficulty={setSelectedDifficulty}
+            selectedTerrain={selectedTerrain}
+            setSelectedTerrain={setSelectedTerrain}
+            firstTerrain={firstTerrain}
+            secondTerrain={secondTerrain}
+          />
         </div>
       </div>
     </div>

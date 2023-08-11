@@ -2,7 +2,7 @@ import Team from "./Team";
 import "../../index.css";
 import { bossList } from "../../BossList";
 export default function TeamList({ bossName, difficulty, terrainIndex }) {
-  const team = bossList.find((boss) => boss.bossName === bossName).teams[
+  const team = bossList.find((boss) => boss.bossName === bossName)?.teams[
     terrainIndex - 1
   ];
   return (
