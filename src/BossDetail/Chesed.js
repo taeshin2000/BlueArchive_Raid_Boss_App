@@ -117,7 +117,7 @@ const Chesed = {
           score: 1234,
           lineUp: [
             { displayName: "Aru", name: "aru_newyear" },
-            { displayName: "Aru", name: "ch0215" },
+            { displayName: "Yongming", name: "ch0215" },
             { displayName: "Aru", name: "maki" },
             { displayName: "Aru", name: "aris" },
             { displayName: "Aru", name: "ako" },

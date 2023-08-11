@@ -45,39 +45,43 @@ export default function Team({ team, index }) {
           borderRadius: 10,
         }}
       >
-        <Character
-          displayName={team.lineUp[0].displayName}
-          name={team.lineUp[0].name}
-        />
-        <Character
-          displayName={team.lineUp[1].displayName}
-          name={team.lineUp[1].name}
-        />
-        <Character
-          displayName={team.lineUp[2].displayName}
-          name={team.lineUp[2].name}
-        />
-        <Character
-          displayName={team.lineUp[3].displayName}
-          name={team.lineUp[3].name}
-        />
+        <div style={{ display: "flex", marginRight: 3 }}>
+          <Character
+            displayName={team.lineUp[0].displayName}
+            name={team.lineUp[0].name}
+          />
+          <Character
+            displayName={team.lineUp[1].displayName}
+            name={team.lineUp[1].name}
+          />
+          <Character
+            displayName={team.lineUp[2].displayName}
+            name={team.lineUp[2].name}
+          />
+          <Character
+            displayName={team.lineUp[3].displayName}
+            name={team.lineUp[3].name}
+          />
+        </div>
         <div
           style={{
             width: 5,
             backgroundColor: "rgba(0, 0, 0, 0.30)",
             rotate: "10deg",
-            marginRight: 5,
+            // marginRight: 5,
             marginBottom: 10,
           }}
         ></div>
-        <Character
-          displayName={team.lineUp[4].displayName}
-          name={team.lineUp[4].name}
-        />{" "}
-        <Character
-          displayName={team.lineUp[5].displayName}
-          name={team.lineUp[5].name}
-        />
+        <div style={{ display: "flex", marginLeft: 7 }}>
+          <Character
+            displayName={team.lineUp[4].displayName}
+            name={team.lineUp[4].name}
+          />
+          <Character
+            displayName={team.lineUp[5].displayName}
+            name={team.lineUp[5].name}
+          />
+        </div>
       </div>
     </div>
   );

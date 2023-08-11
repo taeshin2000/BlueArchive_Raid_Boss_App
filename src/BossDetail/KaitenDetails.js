@@ -143,10 +143,10 @@ const Kaiten = {
         {
           score: "Outdoors normal",
           lineUp: [
-            { displayName: "Aru", name: "miyako" },
+            { displayName: "Shiroko", name: "shiroko_ridingsuit" },
             { displayName: "Aru", name: "ch0218" },
-            { displayName: "Aru", name: "hina" },
-            { displayName: "Aru", name: "yuzu" },
+            { displayName: "Hina.S", name: "ch0063" },
+            { displayName: "Mika", name: "ch0069" },
             { displayName: "Aru", name: "ako" },
             { displayName: "Aru", name: "hibiki" },
           ],

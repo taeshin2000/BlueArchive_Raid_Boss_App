@@ -6,14 +6,17 @@ export default function Character({ displayName, name }) {
         flexDirection: "column",
         gap: 3,
         textAlign: "center",
-        fontSize: 24,
+        fontSize: 20,
       }}
     >
-      <img
-        src={`https://api.ennead.cc/buruaka/image/lobby/${name}`}
-        alt={name}
-        height={81}
-      />
+      <div>
+        <img
+          src={`https://api.ennead.cc/buruaka/image/lobby/${name}`}
+          alt={name}
+          height={81}
+        />
+      </div>
+
       <p style={{ color: "#555555", fontWeight: 400 }}>{displayName}</p>
     </div>
   );
