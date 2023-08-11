@@ -1,5 +1,5 @@
 const HOD = {
-  bossName: "HOD",
+  bossName: "Hod",
   terrain: ["Indoors", "Urban"],
   armorType: "Heavy Armor",
   attackType: "Mystic",

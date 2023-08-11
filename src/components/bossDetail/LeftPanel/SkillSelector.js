@@ -1,4 +1,5 @@
 import React from "react";
+import "../../../index.css";
 
 const SkillSelector = ({
   imageSrc,
@@ -18,7 +19,11 @@ const SkillSelector = ({
         display: "flex",
       }}
     >
-      <img src={imageSrc} style={{ width: "100%", alignSelf: "center" }} />
+      <img
+        className="hover-image"
+        src={imageSrc}
+        style={{ width: "100%", alignSelf: "center" }}
+      />
     </div>
   );
 };

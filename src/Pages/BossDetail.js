@@ -39,31 +39,9 @@ export default function BossDetail() {
     if (armor) {
       setBossArmorType(armor);
     }
-    // if (bossName === "Binah" || bossName === "Chesed" || bossName === "HOD") {
-    //   setBossArmorType("Heavy Armor");
-    // } else if (
-    //   bossName === "ShiroKuro" ||
-    //   bossName === "Perorozilla" ||
-    //   bossName === "Goz"
-    // ) {
-    //   setBossArmorType("Special Armor");
-    // } else {
-    //   setBossArmorType("Light Armor");
-    // }
   }
 
   function setAttackDisplay() {
-    // if (selectedDifficulty !== 2) {
-    //   setBossAttackType("Normal");
-    // } else {
-    //   if (bossName === "Binah" || bossName === "ShiroKuro") {
-    //     setBossAttackType("Penetration");
-    //   } else if (bossName === "Perorozilla" || bossName === "HOD") {
-    //     setBossAttackType("Mystic");
-    //   } else {
-    //     setBossAttackType("Explosive");
-    //   }
-    // }
     const attack = bossList?.find(
       (boss) => boss?.bossName === bossName
     )?.attackType;
@@ -187,7 +165,7 @@ export default function BossDetail() {
               </div>
               <div
                 style={{
-                  fontWeight: 300,
+                  fontWeight: 500,
                   wordWrap: "break-word",
                   whiteSpace: "initial",
                 }}

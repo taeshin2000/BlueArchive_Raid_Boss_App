@@ -15,6 +15,7 @@ const bossIconUrl = [
   },
   { bossName: "Hod", url: "/images/Boss/Hod/Hod_Icon.png" },
   { bossName: "Goz", url: "/images/Boss/Goz/Goz_Icon.png" },
+  { bossName: "Kaiten", url: "/images/Boss/Kaiten/Kaiten_Icon.png" },
 ];
 
 export default function BossIcon({ bossName }) {

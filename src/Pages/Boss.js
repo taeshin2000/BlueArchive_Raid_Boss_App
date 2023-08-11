@@ -93,6 +93,7 @@ export default function Boss() {
           <BossIcon bossName={"Chesed"} />
         </div>
         <div style={{ display: "flex" }}>
+          <BossIcon bossName={"Kaiten"} />
           <BossIcon bossName={"Perorozilla"} />
           <BossIcon bossName={"Hieronymus"} />
         </div>
