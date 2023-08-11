@@ -1,4 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
+import BossIcon from "../components/Boss/BossIcon";
+import BossBanner from "../components/Boss/BossBanner";
+import "../index.css";
 
 export default function Boss() {
   function HoverIn(event) {
@@ -9,10 +12,11 @@ export default function Boss() {
   }
   return (
     <div
+      className="gradient-background"
       style={{
         height: "100vh",
-        background:
-          "linear-gradient(180deg, rgb(165, 166, 246,1) 0%, rgba(151, 71, 255, 1) 100%)",
+        // background:
+        //   "linear-gradient(180deg, rgb(165, 166, 246,1) 0%, rgba(151, 71, 255, 1) 100%)",
       }}
     >
       <div
@@ -26,13 +30,13 @@ export default function Boss() {
           fontWeight: "bolder",
           color: "white",
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          flexDirection: "column",
           gap: 20,
         }}
       >
-        <Link
+        {/* <Link
           onMouseOver={HoverIn}
           onMouseOut={HoverOut}
           style={{ color: "white", textDecoration: "none" }}
@@ -40,6 +44,7 @@ export default function Boss() {
         >
           Binah
         </Link>
+
         <Link
           onMouseOver={HoverIn}
           onMouseOut={HoverOut}
@@ -79,9 +84,21 @@ export default function Boss() {
           to={"Hieronymus"}
         >
           Hieronymus
-        </Link>
+        </Link> */}
         {/* <Link to={"Goz"}>Goz</Link> */}
+        <div style={{ display: "flex" }}>
+          <BossIcon bossName={"Binah"} />
+          <BossIcon bossName={"ShiroKuro"} />
+          <BossIcon bossName={"Hod"} />
+          <BossIcon bossName={"Chesed"} />
+        </div>
+        <div style={{ display: "flex" }}>
+          <BossIcon bossName={"Perorozilla"} />
+          <BossIcon bossName={"Hieronymus"} />
+        </div>
+        <BossBanner status={"current"} />
       </div>
+
       <Outlet />
     </div>
   );
