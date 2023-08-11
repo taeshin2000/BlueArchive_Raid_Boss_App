@@ -27,7 +27,7 @@ export const Kaiten = {
           skillname: "MUGEN KAITEN ・ ULTRA PLATE SHIELD",
           description: (
             <p>
-              Left Arm (Green): Decreases <p>damage taken</p> by 50%. This buff
+              Left Arm (Green): Decreases <b>damage taken</b> by 50%. This buff
               is removed after taking 10 hits from any EX skill.
             </p>
           ),
@@ -37,7 +37,7 @@ export const Kaiten = {
           skillname: "MUGEN KAITEN ・ FINAL MACKEREL SLASH",
           description: (
             <p>
-              Deals <p>400% damage</p> to all enemies. This attack cannot be
+              Deals <b>400% damage</b> to all enemies. This attack cannot be
               blocked or evaded.
             </p>
           ),
@@ -50,9 +50,9 @@ export const Kaiten = {
               Every 20s, each component of KAITEN FX Mk.0 will activate in the
               following order: Right Arm (Pink), Chest (Red), Left Arm (Green).
               When a component is activated, KAITEN FX Mk.0 will gain one of the
-              following effects: Right Arm (Pink): <p>Increases attack</p> by
+              following effects: Right Arm (Pink): <b>Increases attack</b> by
               50%. Chest (Red): KAITEN FX Mk.0's EX skills will also inflict
-              <p>stun</p> for 5s. Left Arm (Green): <p>Increases</p> defense by
+              <b>stun</b> for 5s. Left Arm (Green): <b>Increases</b> defense by
               1,000. If a certain amount of damage is dealt while a component is
               active, that component will be destroyed, increasing KAITEN FX
               Mk.0's stagger gauge significantly and disabling both the
@@ -87,7 +87,7 @@ export const Kaiten = {
           skillname: "MUGEN KAITEN ・ ULTRA PLATE SHIELD",
           description: (
             <p>
-              Left Arm (Green): Decreases <p>damage taken</p> by 50%. This buff
+              Left Arm (Green): Decreases <b>damage taken</b> by 50%. This buff
               is removed after taking 10 hits from any EX skill.
             </p>
           ),
@@ -97,7 +97,7 @@ export const Kaiten = {
           skillname: "MUGEN KAITEN ・ FINAL MACKEREL SLASH",
           description: (
             <p>
-              Deals <p>400% damage</p> to all enemies. This attack cannot be
+              Deals <b>400% damage</b> to all enemies. This attack cannot be
               blocked or evaded.
             </p>
           ),
@@ -107,7 +107,7 @@ export const Kaiten = {
           skillname: "MUGEN KAITEN・ Mega Egg Overcharge",
           description: (
             <p>
-              Feet (Yellow): <p>Increases attack</p> by 4,000 for 30s
+              Feet (Yellow): <b>Increases attack</b> by 4,000 for 30s
             </p>
           ),
           url: "/images/Boss/Kaiten/Kaiten_skill6.png",
@@ -119,11 +119,11 @@ export const Kaiten = {
               Every 20s, each component of KAITEN FX Mk.0 will activate in the
               following order: Right Arm (Pink), Chest (Red), Left Arm (Green).
               When a component is activated, KAITEN FX Mk.0 will gain one of the
-              following effects: Right Arm (Pink): <p>Increases attack</p> by
+              following effects: Right Arm (Pink): <b>Increases attack</b> by
               50%. Chest (Red): KAITEN FX Mk.0's EX skills will also inflict
-              <p>stun</p> for 5s. Left Arm (Green): <p>Increases</p> defense by
+              <b>stun</b> for 5s. Left Arm (Green): <b>Increases</b> defense by
               1,000. Additionally, KAITEN FX Mk.0's EX skills will inflict an
-              80% <p>healing reduction</p> debuff for 30s. If a certain amount
+              80% <b>healing reduction</b> debuff for 30s. If a certain amount
               of damage is dealt while a component is active, that component
               will be destroyed, increasing KAITEN FX Mk.0's stagger gauge
               significantly and disabling both the component from activating and
