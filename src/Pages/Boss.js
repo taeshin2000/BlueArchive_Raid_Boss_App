@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import BossIcon from "../components/BossIcon";
 import "../index.css";
 
 export default function Boss() {
@@ -28,13 +29,13 @@ export default function Boss() {
           fontWeight: "bolder",
           color: "white",
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          flexDirection: "column",
           gap: 20,
         }}
       >
-        <Link
+        {/* <Link
           onMouseOver={HoverIn}
           onMouseOut={HoverOut}
           style={{ color: "white", textDecoration: "none" }}
@@ -42,6 +43,7 @@ export default function Boss() {
         >
           Binah
         </Link>
+
         <Link
           onMouseOver={HoverIn}
           onMouseOut={HoverOut}
@@ -81,8 +83,18 @@ export default function Boss() {
           to={"Hieronymus"}
         >
           Hieronymus
-        </Link>
+        </Link> */}
         {/* <Link to={"Goz"}>Goz</Link> */}
+        <div style={{ display: "flex" }}>
+          <BossIcon bossName={"Binah"} />
+          <BossIcon bossName={"ShiroKuro"} />
+          <BossIcon bossName={"Hod"} />
+          <BossIcon bossName={"Chesed"} />
+        </div>
+        <div style={{ display: "flex" }}>
+          <BossIcon bossName={"Perorozilla"} />
+          <BossIcon bossName={"Hieronymus"} />
+        </div>
       </div>
       <Outlet />
     </div>
