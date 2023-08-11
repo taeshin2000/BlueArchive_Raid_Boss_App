@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import "../index.css";
 
 export default function Boss() {
   function HoverIn(event) {
@@ -9,10 +10,11 @@ export default function Boss() {
   }
   return (
     <div
+      className="gradient-background"
       style={{
         height: "100vh",
-        background:
-          "linear-gradient(180deg, rgb(165, 166, 246,1) 0%, rgba(151, 71, 255, 1) 100%)",
+        // background:
+        //   "linear-gradient(180deg, rgb(165, 166, 246,1) 0%, rgba(151, 71, 255, 1) 100%)",
       }}
     >
       <div
