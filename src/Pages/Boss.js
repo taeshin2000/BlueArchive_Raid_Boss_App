@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
-import BossIcon from "../components/BossIcon";
+import BossIcon from "../components/Boss/BossIcon";
+import BossBanner from "../components/Boss/BossBanner";
 import "../index.css";
 
 export default function Boss() {
@@ -95,7 +96,9 @@ export default function Boss() {
           <BossIcon bossName={"Perorozilla"} />
           <BossIcon bossName={"Hieronymus"} />
         </div>
+        <BossBanner status={"current"} />
       </div>
+
       <Outlet />
     </div>
   );

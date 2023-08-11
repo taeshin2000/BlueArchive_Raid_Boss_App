@@ -1,5 +1,5 @@
-import { Link, Outlet } from "react-router-dom";
-import "../index.css";
+import { Link } from "react-router-dom";
+import "../../index.css";
 
 const bossIconUrl = [
   { bossName: "Binah", url: "/images/Boss/Binah/Binah_Icon.png" },
@@ -19,9 +19,8 @@ const bossIconUrl = [
 
 export default function BossIcon({ bossName }) {
   const url = bossIconUrl.find((icon) => icon.bossName === bossName).url;
-  console.log(url);
   return (
-    <Link to={bossName}>
+    <Link to={bossName} style={{ display: "flex" }}>
       <img src={url} alt={bossName} height={200} className="hover-image" />
     </Link>
   );
