@@ -20,6 +20,7 @@ export default function BossBanner({ className }) {
         console.error("Error fetching data", error);
       }
     }
+
     getRaidData();
 
     //getData every minute
@@ -47,7 +48,7 @@ export default function BossBanner({ className }) {
   //display in format dd/hh/mm
   const displayTime = `${
     raidState === "Current" ? "Ends in" : "Starts in"
-  } : ${days} d / ${hours} h / ${minutes} m`;
+  } : ${days} d : ${hours} h : ${minutes} m`;
 
   //date month year
   const date = new Date(raidData?.startAt - timeDiff);
@@ -55,7 +56,7 @@ export default function BossBanner({ className }) {
   const month = date.toLocaleString("default", { month: "long" });
   const year = date.getFullYear();
   //display in format dd/mm/yy
-  const displayDate = `Start date : ${day} / ${month} / ${year}`;
+  const displayDate = `Start date : ${day} ${month} ${year}`;
 
   return (
     <div className={className}>

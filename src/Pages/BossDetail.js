@@ -6,6 +6,8 @@ import { bossList } from "../BossList";
 import RightPanel from "../components/bossDetail/RightPanel/RightPanel";
 import SkillSelector from "../components/bossDetail/LeftPanel/SkillSelector";
 import Navbar from "../components/Utilities/NavBar/NavBar";
+import Footer from "../components/Utilities/NavBar/Footer";
+
 export default function BossDetail() {
   const { bossName } = useParams();
   const [bossAttackType, setBossAttackType] = useState("");
@@ -196,6 +198,7 @@ export default function BossDetail() {
             secondTerrain={secondTerrain}
           />
         </div>
+        <Footer />
       </div>
     </div>
   );

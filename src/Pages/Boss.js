@@ -4,6 +4,7 @@ import BossBanner from "../components/Boss/BossBanner";
 import "../index.css";
 import Navbar from "../components/Utilities/NavBar/NavBar";
 import { useEffect, useState } from "react";
+import Footer from "../components/Utilities/NavBar/Footer";
 
 export default function Boss() {
   const [showBanner, setShowbanner] = useState(false);
@@ -53,6 +54,7 @@ export default function Boss() {
       </div>
 
       <Outlet />
+      <Footer />
     </div>
   );
 }
