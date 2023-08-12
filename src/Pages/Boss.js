@@ -97,7 +97,7 @@ export default function Boss() {
           <BossIcon bossName={"Perorozilla"} />
           <BossIcon bossName={"Hieronymus"} />
         </div>
-        <BossBanner status={"current"} />
+        <BossBanner />
       </div>
 
       <Outlet />
