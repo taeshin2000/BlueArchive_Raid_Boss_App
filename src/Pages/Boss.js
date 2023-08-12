@@ -3,8 +3,14 @@ import BossIcon from "../components/Boss/BossIcon";
 import BossBanner from "../components/Boss/BossBanner";
 import "../index.css";
 import Navbar from "../components/Utilities/NavBar/NavBar";
+import { useEffect, useState } from "react";
 
 export default function Boss() {
+  const [showBanner, setShowbanner] = useState(false);
+  useEffect(() => {
+    console.log("set");
+    setShowbanner(true);
+  }, []);
   return (
     <div
       className="gradient-background"
@@ -43,7 +49,7 @@ export default function Boss() {
           <BossIcon bossName={"Perorozilla"} />
           <BossIcon bossName={"Hieronymus"} />
         </div>
-        <BossBanner />
+        <BossBanner className={`sliding ${showBanner ? "active" : ""}`} />
       </div>
 
       <Outlet />

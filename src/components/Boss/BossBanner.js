@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "../../index.css";
 import { useState } from "react";
-export default function BossBanner() {
+export default function BossBanner({ className }) {
   const [raidData, setRaidData] = useState(null);
   const [raidState, setRaidState] = useState("");
   useEffect(() => {
@@ -21,36 +21,44 @@ export default function BossBanner() {
       }
     }
     getRaidData();
+
+    //getData every minute
     setInterval(() => {
       getRaidData();
     }, 60000);
   }, []);
+
   const currentTime = new Date().getTime();
+
+  //change 1 to decrease time data +1 = -1hour
   const timeDiff = 1 * 60 * 60 * 1000;
+
   const timeDifference =
     raidState === "Current"
       ? raidData?.endAt - timeDiff - currentTime
       : raidData?.startAt - timeDiff - currentTime;
+  //days hours minuts
   const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
   const lessThan7 = days < 7;
-  console.log(lessThan7);
   const hours = Math.floor(
     (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
   );
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-  const display = `${
+  //display in format dd/hh/mm
+  const displayTime = `${
     raidState === "Current" ? "Ends in" : "Starts in"
   } : ${days} d / ${hours} h / ${minutes} m`;
+
+  //date month year
+  const date = new Date(raidData?.startAt - timeDiff);
+  const day = date.getDate();
+  const month = date.toLocaleString("default", { month: "long" });
+  const year = date.getFullYear();
+  //display in format dd/mm/yy
+  const displayDate = `Start date : ${day} / ${month} / ${year}`;
+
   return (
-    <div
-      style={{
-        position: "absolute",
-        right: 0,
-        bottom: 10,
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
+    <div className={className}>
       <div
         style={{
           height: 45,
@@ -79,10 +87,16 @@ export default function BossBanner() {
               {raidState} Raid Boss : {raidData.bossName?.split("_")[0]} (
               {raidData.bossName.split("_")[1] === "Street"
                 ? "Urban"
-                : raidData.bossName.split("_")[1]}
+                : raidData.bossName.split("_")[1]
+                ? raidData.bossName.split("_")[1]
+                : "ym"}
               )
             </p>
-            <p style={{ fontSize: 12 }}>{display}</p>
+            <p style={{ fontSize: 12 }}>
+              {raidState === "Upcoming" && !lessThan7
+                ? displayDate
+                : displayTime}
+            </p>
           </div>
         ) : null}
       </div>
