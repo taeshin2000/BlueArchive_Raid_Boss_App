@@ -1,10 +1,11 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import { bossList } from "../BossList";
 
 import RightPanel from "../components/bossDetail/RightPanel/RightPanel";
 import SkillSelector from "../components/bossDetail/LeftPanel/SkillSelector";
+import Navbar from "../components/Utilities/NavBar/NavBar";
 export default function BossDetail() {
   const { bossName } = useParams();
   const [bossAttackType, setBossAttackType] = useState("");
@@ -16,6 +17,8 @@ export default function BossDetail() {
   const [normalSkills, setNormalSkills] = useState([]);
   const [insaneSkills, setInsaneSkills] = useState([]);
   const [selectedSkill, setSelectedSkill] = useState(1);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     setStartDifficultyDisplay();
@@ -91,36 +94,41 @@ export default function BossDetail() {
           height: "100%",
           fontFamily: "sans-serif",
           fontWeight: "bolder",
-          justifyContent: "center",
           flexDirection: "column",
           alignItems: "center",
           color: "white",
-          gap: 25,
           background:
             "linear-gradient(180deg, rgb(165, 166, 246,.6) 0%, rgba(151, 71, 255, .6) 100%)",
         }}
       >
-        <div style={{ height: "100%", width: "100%", display: "flex" }}>
+        <Navbar pageNumber={1} />
+        <div style={{ width: "100%", display: "flex", overflow: "auto" }}>
           <div
             style={{
               display: "flex",
-              height: "100%",
               width: "100%",
               flexDirection: "column",
-              padding: 40,
-              gap: 20,
+              gap: 12,
               maxWidth: "50%",
-              paddingTop: 60,
+              padding: 20,
             }}
           >
-            <picture style={{ alignSelf: "center", borderRadius: 4 }}>
+            <p
+              onClick={() => {
+                navigate("/boss");
+              }}
+              style={{ fontWeight: 500, userSelect: "none", cursor: "pointer" }}
+            >
+              {"<- Bosses"}
+            </p>
+            <picture style={{ alignSelf: "center", borderRadius: 8 }}>
               <source
-                style={{ borderRadius: 4, maxHeight: 300 }}
+                style={{ borderRadius: 8, maxHeight: 240 }}
                 srcSet={`/images/Boss/${bossName}/${bossName}.webp`}
                 type="image/webp"
               />
               <img
-                style={{ borderRadius: 4, maxHeight: 300 }}
+                style={{ borderRadius: 8, maxHeight: 240 }}
                 src={`/images/Boss/${bossName}/${bossName}.webp`}
               />
             </picture>

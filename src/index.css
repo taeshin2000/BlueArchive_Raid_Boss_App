@@ -54,3 +54,18 @@ code {
 .hover-image:hover {
   transform: scale(1.1);
 }
+
+.navItem {
+  transition: 0.3s ease-in-out;
+}
+.navItem-active {
+  background-color: rgba(51, 51, 51, 0.25);
+  transition: 0.3s ease-in-out;
+}
+.navItem-active:hover {
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.navItem:hover {
+  background-color: rgba(51, 51, 51, 0.5);
+}
