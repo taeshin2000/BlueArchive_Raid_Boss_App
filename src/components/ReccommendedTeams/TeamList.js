@@ -29,7 +29,12 @@ export default function TeamList({ bossName, difficulty, terrainIndex }) {
       >
         {(difficulty === 1 ? team?.normal : team?.insane)?.map(
           (team, index) => (
-            <Team team={team} index={index} key={index} />
+            <Team
+              team={team}
+              index={index}
+              key={index}
+              twoTeams={team.lineUp.length > 6}
+            />
           )
         )}
       </div>
