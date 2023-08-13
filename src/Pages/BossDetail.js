@@ -85,7 +85,7 @@ export default function BossDetail() {
     <div
       style={{
         height: "100vh",
-        background: `url("BlueArchive_Raid_Boss_App/images/Boss/${bossName}/${bossName}_BG.jpg"), lightgray 50% / cover no-repeat`,
+        background: `url("/BlueArchive_Raid_Boss_App/images/Boss/${bossName}/${bossName}_BG.jpg"), lightgray 50% / cover no-repeat`,
         backgroundPosition: "center,center",
       }}
     >
@@ -126,12 +126,12 @@ export default function BossDetail() {
             <picture style={{ alignSelf: "center", borderRadius: 8 }}>
               <source
                 style={{ borderRadius: 8, maxHeight: 240 }}
-                srcSet={`BlueArchive_Raid_Boss_App/images/Boss/${bossName}/${bossName}.webp`}
+                srcSet={`/BlueArchive_Raid_Boss_App/images/Boss/${bossName}/${bossName}.webp`}
                 type="image/webp"
               />
               <img
                 style={{ borderRadius: 8, maxHeight: 240 }}
-                src={`BlueArchive_Raid_Boss_App/images/Boss/${bossName}/${bossName}.webp`}
+                src={`/BlueArchive_Raid_Boss_App/images/Boss/${bossName}/${bossName}.webp`}
               />
             </picture>
             <div
