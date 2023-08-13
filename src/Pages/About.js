@@ -40,7 +40,14 @@ export default function About() {
         </p>
         <p>Raid Boss Teams Data credit to "page"</p>
         <p>
-          Bosses Information credit to <a>https://bluearchive.wiki/wiki/Raid</a>
+          Bosses Information credit to{" "}
+          <a
+            href={"https://bluearchive.wiki/wiki/Raid"}
+            target="_blank"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            https://bluearchive.wiki/wiki/Raid
+          </a>
         </p>
         <p>
           All Rights Reserved to © 2021 NEXON Korea Corp. & NEXON GAMES Co.,
