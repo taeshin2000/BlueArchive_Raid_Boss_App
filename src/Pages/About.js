@@ -38,7 +38,16 @@ export default function About() {
         <p style={{ fontSize: 25, fontWeight: "bold" }}>
           We might update the website in the future.
         </p>
-        <p>Raid Boss Teams Data credit to "page"</p>
+        <p>
+          Raid Boss Teams Data credit to{" "}
+          <a
+            href={"https://www.facebook.com/Seamindz"}
+            target="_blank"
+            style={{ textDecoration: "none", color: "#fff" }}
+          >
+            https://www.facebook.com/Seamindz
+          </a>
+        </p>
         <p>
           Bosses Information credit to{" "}
           <a
