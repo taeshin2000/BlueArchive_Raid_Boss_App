@@ -103,7 +103,7 @@ const Chesed = {
     {
       normal: [
         {
-          score: "14M-14.4M",
+          score: "14M - 14.4M",
           lineUp: [
             { displayName: "Iori", name: "iori" },
             { displayName: "Cherino", name: "cherino" },
@@ -114,7 +114,7 @@ const Chesed = {
           ],
         },
         {
-          score: "14M-14.4M",
+          score: "14M - 14.4M",
           lineUp: [
             { displayName: "Aru.NY", name: "aru_newyear" },
             { displayName: "Momoi", name: "momoi" },
@@ -125,7 +125,7 @@ const Chesed = {
           ],
         },
         {
-          score: "13.6M-14M",
+          score: "13.6M - 14M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Iori", name: "iori" },
@@ -136,7 +136,7 @@ const Chesed = {
           ],
         },
         {
-          score: "13M-13.2M",
+          score: "13M - 13.2M",
           lineUp: [
             { displayName: "Cherino", name: "cherino" },
             { displayName: "Nonomi", name: "nonomi" },
@@ -156,7 +156,7 @@ const Chesed = {
       ],
       insane: [
         {
-          score: "25M-25.7M",
+          score: "25M - 25.7M",
           lineUp: [
             { displayName: "Aru.NY", name: "aru_newyear" },
             { displayName: "Cherino", name: "cherino" },
@@ -174,7 +174,7 @@ const Chesed = {
           ],
         },
         {
-          score: "insane2",
+          score: "25M - 25.5M ",
           lineUp: [
             { displayName: "Midori", name: "midori" },
             { displayName: "Hoshino.S", name: "hoshino_swimsuit" },
@@ -192,7 +192,7 @@ const Chesed = {
           ],
         },
         {
-          score: "24.5M-24.8M",
+          score: "24.5M - 24.8M",
           lineUp: [
             { displayName: "Nonomi", name: "nonomi" },
             { displayName: "Momoi", name: "momoi" },
@@ -210,7 +210,7 @@ const Chesed = {
           ],
         },
         {
-          score: "23M-24M",
+          score: "23M - 24M",
           lineUp: [
             { displayName: "Sumire", name: "sumire" },
             { displayName: "Hoshino.S", name: "hoshino_swimsuit" },
@@ -295,7 +295,7 @@ const Chesed = {
             { displayName: "Tsubaki", name: "tsubaki" },
             { displayName: "Hasumi", name: "hasumi" },
             { displayName: "Ako", name: "ako" },
-            { displayName: "Sena", name: "ch081" },
+            { displayName: "Sena", name: "ch0081" },
           ],
         },
         {

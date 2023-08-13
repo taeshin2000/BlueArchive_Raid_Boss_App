@@ -83,7 +83,7 @@ const Binah = {
     {
       normal: [
         {
-          score: "13.5M-14M",
+          score: "13.5M - 14M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Kazusa", name: "kazusa" },
@@ -94,7 +94,7 @@ const Binah = {
           ],
         },
         {
-          score: "13.5M-14M",
+          score: "13.5M - 14M",
           lineUp: [
             { displayName: "Yuzu", name: "yuzu" },
             { displayName: "Maki", name: "maki" },
@@ -105,7 +105,7 @@ const Binah = {
           ],
         },
         {
-          score: "13.3M-13.7M",
+          score: "13.3M - 13.7M",
           lineUp: [
             { displayName: "Cherino", name: "cherino" },
             { displayName: "Akane", name: "akane" },
@@ -118,7 +118,7 @@ const Binah = {
       ],
       insane: [
         {
-          score: "24.7M-25M",
+          score: "24.7M - 25M",
           lineUp: [
             { displayName: "Yuzu", name: "yuzu" },
             { displayName: "Maki", name: "maki" },
@@ -129,7 +129,7 @@ const Binah = {
           ],
         },
         {
-          score: "24.7M-24.92M",
+          score: "24.7M - 24.92M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Kazusa", name: "kazusa" },
@@ -140,7 +140,7 @@ const Binah = {
           ],
         },
         {
-          score: "24.5M-24.72M",
+          score: "24.5M - 24.72M",
           lineUp: [
             { displayName: "Hasumi", name: "hasumi" },
             { displayName: "Maki", name: "maki" },
@@ -151,7 +151,7 @@ const Binah = {
           ],
         },
         {
-          score: "24.4M-24.6M",
+          score: "24.4M - 24.6M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Kazusa", name: "kazusa" },
@@ -166,7 +166,7 @@ const Binah = {
     {
       normal: [
         {
-          score: "13.5M-14M",
+          score: "13.5M - 14M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Kazusa", name: "kazusa" },
@@ -177,7 +177,7 @@ const Binah = {
           ],
         },
         {
-          score: "13.5M-14M",
+          score: "13.5M - 14M",
           lineUp: [
             { displayName: "Yuzu", name: "yuzu" },
             { displayName: "Maki", name: "maki" },
@@ -188,7 +188,7 @@ const Binah = {
           ],
         },
         {
-          score: "13.3M-13.7M",
+          score: "13.3M - 13.7M",
           lineUp: [
             { displayName: "Cherino", name: "cherino" },
             { displayName: "Akane", name: "akane" },
@@ -201,7 +201,7 @@ const Binah = {
       ],
       insane: [
         {
-          score: "24.7M-25M",
+          score: "24.7M - 25M",
           lineUp: [
             { displayName: "Yuzu", name: "yuzu" },
             { displayName: "Maki", name: "maki" },
@@ -212,7 +212,7 @@ const Binah = {
           ],
         },
         {
-          score: "24.7M-24.92M",
+          score: "24.7M - 24.92M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Kazusa", name: "kazusa" },
@@ -223,7 +223,7 @@ const Binah = {
           ],
         },
         {
-          score: "24.5M-24.72M",
+          score: "24.5M - 24.72M",
           lineUp: [
             { displayName: "Hasumi", name: "hasumi" },
             { displayName: "Maki", name: "maki" },
@@ -234,7 +234,7 @@ const Binah = {
           ],
         },
         {
-          score: "24.4M-24.6M",
+          score: "24.4M - 24.6M",
           lineUp: [
             { displayName: "Ui", name: "ch0169" },
             { displayName: "Kazusa", name: "kazusa" },

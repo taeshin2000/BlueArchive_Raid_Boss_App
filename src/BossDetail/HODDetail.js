@@ -235,7 +235,7 @@ const HOD = {
     {
       normal: [
         {
-          score: "14M-14.4M",
+          score: "14M - 14.4M",
           lineUp: [
             { displayName: "Iori", name: "iori" },
             { displayName: "Maki", name: "maki" },
@@ -246,7 +246,7 @@ const HOD = {
           ],
         },
         {
-          score: "14M-14.3M",
+          score: "14M - 14.3M",
           lineUp: [
             { displayName: "Tsubaki", name: "tsubaki" },
             { displayName: "Maki", name: "maki" },
@@ -257,7 +257,7 @@ const HOD = {
           ],
         },
         {
-          score: "13.3M-14M",
+          score: "13.3M - 14M",
           lineUp: [
             { displayName: "Iori", name: "iori" },
             { displayName: "Fubuki", name: "ch0141" },
@@ -268,7 +268,7 @@ const HOD = {
           ],
         },
         {
-          score: "14.4M-14.6M",
+          score: "14.4M - 14.6M",
           lineUp: [
             { displayName: "Kazusa", name: "kazusa" },
             { displayName: "Iori", name: "iori" },
@@ -281,7 +281,7 @@ const HOD = {
       ],
       insane: [
         {
-          score: "25.5M-26.3M",
+          score: "25.5M - 26.3M",
           lineUp: [
             { displayName: "Kayoko", name: "kayoko" },
             { displayName: "Cherino", name: "cherino" },
@@ -292,7 +292,7 @@ const HOD = {
           ],
         },
         {
-          score: "25M-25.8M",
+          score: "25M - 25.8M",
           lineUp: [
             { displayName: "Fubuki", name: "ch0141" },
             { displayName: "Kayoko", name: "kayoko" },
@@ -303,7 +303,7 @@ const HOD = {
           ],
         },
         {
-          score: "25M-25.8M",
+          score: "25M - 25.8M",
           lineUp: [
             { displayName: "Fubuki", name: "ch0141" },
             { displayName: "Kayoko", name: "kayoko" },
@@ -314,7 +314,7 @@ const HOD = {
           ],
         },
         {
-          score: "25M-25.4M",
+          score: "25M - 25.4M",
           lineUp: [
             { displayName: "Miyu", name: "ch0141" },
             { displayName: "Miyako", name: "miyako" },

@@ -113,7 +113,7 @@ const ShiroKuro = {
     {
       normal: [
         {
-          score: "14M-14.5M",
+          score: "14M - 14.5M",
           lineUp: [
             { displayName: "Izuna", name: "izuna" },
             { displayName: "Izuna.S", name: "ch0179" },
@@ -124,7 +124,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "14M-14.3M",
+          score: "14M - 14.3M",
           lineUp: [
             { displayName: "Haruna", name: "haruna" },
             { displayName: "Aris", name: "aris" },
@@ -135,7 +135,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "14M-14.2M",
+          score: "14M - 14.2M",
           lineUp: [
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
             { displayName: "Koharu", name: "koharu" },
@@ -146,7 +146,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "13.8M-14M",
+          score: "13.8M - 14M",
           lineUp: [
             { displayName: "Haruna", name: "haruna" },
             { displayName: "Izuna", name: "izuna" },
@@ -159,7 +159,7 @@ const ShiroKuro = {
       ],
       insane: [
         {
-          score: "25M-25.8M",
+          score: "25M - 25.8M",
           lineUp: [
             { displayName: "Izuna.S", name: "ch0179" },
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
@@ -169,15 +169,15 @@ const ShiroKuro = {
             { displayName: "Fuuka.NY", name: "ch0177" },
 
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
-            { displayName: "Izuna", name: "izuna" },
-            { displayName: "Hasumi.G", name: "ch0190" },
             { displayName: "Hoshino.S", name: "hoshino_swimsuit" },
+            { displayName: "Hasumi.G", name: "ch0190" },
+            { displayName: "Izuna", name: "izuna" },
             { displayName: "Ako", name: "ako" },
             { displayName: "Himari", name: "ch0159" },
           ],
         },
         {
-          score: "24M-24.7M",
+          score: "24M - 24.7M",
           lineUp: [
             { displayName: "Haruna", name: "haruna" },
             { displayName: "Izuna", name: "izuna" },
@@ -186,7 +186,7 @@ const ShiroKuro = {
             { displayName: "Shizuko", name: "shizuko" },
             { displayName: "Shizuko.S", name: "ch0180" },
 
-            { displayName: "Hifumi", name: "hifumi" },
+            { displayName: "Hifumi", name: "hihumi" },
             { displayName: "Wakamo", name: "wakamo" },
             { displayName: "Asuna", name: "asuna" },
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
@@ -195,7 +195,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "25M-25.5M",
+          score: "25M - 25.5M",
           lineUp: [
             { displayName: "Izuna.S", name: "ch0179" },
             { displayName: "Wakamo", name: "wakamo" },
@@ -204,10 +204,10 @@ const ShiroKuro = {
             { displayName: "Shizuko", name: "shizuko" },
             { displayName: "Kotama", name: "kotama" },
 
-            { displayName: "Asuna", name: "asuna" },
+            { displayName: "Hoshino.S", name: "hoshino_swimsuit" },
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
             { displayName: "Hasumi.G", name: "ch0190" },
-            { displayName: "Hoshino.S", name: "hoshino_swimsuit" },
+            { displayName: "Asuna", name: "asuna" },
             { displayName: "Ako", name: "ako" },
             { displayName: "Himari", name: "ch0159" },
           ],
@@ -217,7 +217,7 @@ const ShiroKuro = {
     {
       normal: [
         {
-          score: "14M-14.6M",
+          score: "14M - 14.6M",
           lineUp: [
             { displayName: "Haruna", name: "haruna" },
             { displayName: "Izuna", name: "izuna" },
@@ -228,7 +228,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "14M-14.2M",
+          score: "14M - 14.2M",
           lineUp: [
             { displayName: "Asuna", name: "asuna" },
             { displayName: "Haruna", name: "haruna" },
@@ -239,7 +239,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "14M-14.4M",
+          score: "14M - 14.4M",
           lineUp: [
             { displayName: "Cherino", name: "cherino" },
             { displayName: "Hasumi.G", name: "ch0190" },
@@ -252,7 +252,7 @@ const ShiroKuro = {
       ],
       insane: [
         {
-          score: "25M-25.6M",
+          score: "25M - 25.6M",
           lineUp: [
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
             { displayName: "Izuna", name: "izuna" },
@@ -270,7 +270,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "25M-25.5M",
+          score: "25M - 25.5M",
           lineUp: [
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
             { displayName: "Izuna", name: "izuna" },
@@ -288,7 +288,7 @@ const ShiroKuro = {
           ],
         },
         {
-          score: "25M-25.4M",
+          score: "25M - 25.4M",
           lineUp: [
             { displayName: "Azusa.S", name: "azusa_swimsuit" },
             { displayName: "Hoshino.S", name: "hoshino_swimsuit" },
