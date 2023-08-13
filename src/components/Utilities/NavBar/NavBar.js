@@ -26,7 +26,7 @@ const Navbar = ({ pageNumber }) => {
         }}
       >
         <img
-          src="BlueArchive_Raid_Boss_App/images/Blue_Archive_logo.svg.png"
+          src="/BlueArchive_Raid_Boss_App/images/Blue_Archive_logo.svg.png"
           width={150}
         ></img>
       </div>

@@ -15,7 +15,7 @@ const Hieronymus = {
               current HP.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill1.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill1.jpg",
         },
         {
           skillname: "Vulgate's Sacred Book",
@@ -27,7 +27,7 @@ const Hieronymus = {
               target is healed to 100% HP, the curse will be removed.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill2.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill2.jpg",
         },
         {
           skillname: "Reaper's Execution",
@@ -36,7 +36,7 @@ const Hieronymus = {
               Deals <b>90% damage</b> to enemies in a circular area.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill3.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill3.jpg",
         },
         {
           skillname: "Desert Penance",
@@ -47,7 +47,7 @@ const Hieronymus = {
               1000% of their Max HP.s
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill4.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill4.jpg",
         },
         {
           skillname: "Holy Light (Relic)",
@@ -63,7 +63,7 @@ const Hieronymus = {
               the skill cost recovery speed of up to 4 students by 2500 for 1s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill5.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill5.jpg",
         },
       ],
       insane: [
@@ -76,7 +76,7 @@ const Hieronymus = {
               current HP.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill1.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill1.jpg",
         },
         {
           skillname: "Vulgate's Sacred Book",
@@ -90,7 +90,7 @@ const Hieronymus = {
               by 3,000 for 10s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill2.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill2.jpg",
         },
         {
           skillname: "Reaper's Execution",
@@ -99,7 +99,7 @@ const Hieronymus = {
               Deals <b>90% damage</b> to enemies in a circular area.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill3.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill3.jpg",
         },
         {
           skillname: "Desert Penance",
@@ -111,7 +111,7 @@ const Hieronymus = {
               Max HP, and increases <b>recovery</b> rate by 2,000 for 10s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill4.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill4.jpg",
         },
         {
           skillname: "Holy Light (Relic)",
@@ -123,7 +123,7 @@ const Hieronymus = {
               by 55% until the end of battle. Effect can stack up to 5 times.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill5.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill5.jpg",
         },
         {
           skillname: "Unholy Light (Relic)",
@@ -139,7 +139,7 @@ const Hieronymus = {
               skills.)
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill6.jpg",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Hieronymus/Hieronymus_skill6.jpg",
         },
       ],
     },

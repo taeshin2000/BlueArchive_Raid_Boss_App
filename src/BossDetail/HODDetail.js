@@ -13,7 +13,7 @@ const HOD = {
               Deals <b>150% damage</b> to all enemies within a circulate range.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill1.png",
         },
         {
           skillname: "Destruction Type II",
@@ -22,7 +22,7 @@ const HOD = {
               Deals <b>200% damage</b> to all enemies in a Straight Line.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill2.png",
         },
         {
           skillname: "Invader Pillar Generation",
@@ -34,7 +34,7 @@ const HOD = {
               pillar's erosion field expands every 15s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill3.png",
         },
         {
           skillname: "Energy Overload",
@@ -45,7 +45,7 @@ const HOD = {
               Field Turrets.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill4.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill4.png",
         },
         {
           skillname: "Radiance Glory",
@@ -55,7 +55,7 @@ const HOD = {
               by 50% until the end of battle. Effect stacks up to 99 times.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill5.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill5.png",
         },
         {
           skillname: "Hidden Glory",
@@ -76,7 +76,7 @@ const HOD = {
               reduce the <b>Erosion Field</b> range by 1 level.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill6.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill6.png",
         },
         {
           skillname: "In the Shadow of Honor",
@@ -88,7 +88,7 @@ const HOD = {
               to effects of <b>focused fire</b>.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill7.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill7.png",
         },
       ],
       insane: [
@@ -101,7 +101,7 @@ const HOD = {
               level.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill1.png",
         },
         {
           skillname: "Destruction Type II",
@@ -110,7 +110,7 @@ const HOD = {
               Deals <b>200% damage</b> to all enemies in a Straight Line.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill2.png",
         },
         {
           skillname: "Invader Pillar Generation",
@@ -122,7 +122,7 @@ const HOD = {
               pillar's erosion field expands every 15s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill3.png",
         },
         {
           skillname: "Energy Overload",
@@ -133,7 +133,7 @@ const HOD = {
               Field Turrets.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill4.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill4.png",
         },
         {
           skillname: "Radiance Glory",
@@ -143,7 +143,7 @@ const HOD = {
               by 50% until the end of battle. Effect stacks up to 99 times.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill5.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill5.png",
         },
         {
           skillname: "Hidden Glory",
@@ -164,7 +164,7 @@ const HOD = {
               <b> Erosion Field</b> range by 1 level.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill6.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill6.png",
         },
         {
           skillname: "In the Shadow of Honor",
@@ -176,7 +176,7 @@ const HOD = {
               to effects of <b>focused fire</b>.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill7.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_skill7.png",
         },
       ],
     },

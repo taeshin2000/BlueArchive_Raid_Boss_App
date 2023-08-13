@@ -13,7 +13,7 @@ const Binah = {
               Deal <b>120% damage</b> to enemies in a straight line.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill1.png",
         },
         {
           skillname: "Fires of Severity",
@@ -22,7 +22,7 @@ const Binah = {
               Deal <b>200% damage</b> to 4 enemies.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill2.png",
         },
         {
           skillname: "Purifying Storm (Gauge Skill)",
@@ -33,7 +33,7 @@ const Binah = {
               by 50% for 30s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill3.png",
         },
       ],
       insane: [
@@ -44,7 +44,7 @@ const Binah = {
               Deal <b>120% damage</b> to enemies in a straight line.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill1.png",
         },
         {
           skillname: "Fires of Severity",
@@ -53,7 +53,7 @@ const Binah = {
               Deal <b>400% damage</b> to 4 enemies.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill2.png",
         },
         {
           skillname: "Purifying Storm (Gauge Skill)",
@@ -64,7 +64,7 @@ const Binah = {
               by 50% for 30s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill3.png",
         },
         {
           skillname: "Raging Sandstorm",
@@ -74,7 +74,7 @@ const Binah = {
               by 50%. This debuff <b>cannot be removed</b>.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill4.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Binah/Binah_skill4.png",
         },
       ],
     },

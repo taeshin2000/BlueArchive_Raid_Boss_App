@@ -15,7 +15,7 @@ const Chesed = {
               soldiers have been defeated.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill1.png",
         },
         {
           skillname: "Witness My Supreme Powers",
@@ -27,7 +27,7 @@ const Chesed = {
               effects.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill2.png",
         },
         {
           skillname: "Majesty's Mercy",
@@ -37,7 +37,7 @@ const Chesed = {
               enemies.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill3.png",
         },
         {
           skillname: "Exposed Throne",
@@ -48,7 +48,7 @@ const Chesed = {
               taken by <b>900%</b>.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill4.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill4.png",
         },
       ],
       insane: [
@@ -61,7 +61,7 @@ const Chesed = {
               soldiers have been defeated.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill1.png",
         },
         {
           skillname: "Witness My Supreme Powers",
@@ -73,7 +73,7 @@ const Chesed = {
               effects.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill2.png",
         },
         {
           skillname: "Majesty's Mercy",
@@ -83,7 +83,7 @@ const Chesed = {
               enemies.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill3.png",
         },
         {
           skillname: "Exposed Throne",
@@ -94,7 +94,7 @@ const Chesed = {
               taken by <b>900%</b>.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill4.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/Chesed/Chesed_skill4.png",
         },
       ],
     },

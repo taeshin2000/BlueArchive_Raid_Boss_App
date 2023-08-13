@@ -16,7 +16,7 @@ const ShiroKuro = {
               placed increases as Shiro's ATG gauge increases.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill1.png",
         },
         {
           skillname: "Keep Rollin' Rollin' Rollin'!",
@@ -29,7 +29,7 @@ const ShiroKuro = {
               stagger gauge by a significant amount.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill2.png",
         },
         {
           skillname: "Charge!!! (Kuro)",
@@ -40,7 +40,7 @@ const ShiroKuro = {
               increases Kuro's stagger gauge by a significant amount.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill3.png",
         },
       ],
       insane: [
@@ -56,7 +56,7 @@ const ShiroKuro = {
               80% for 40s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill1.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill1.png",
         },
         {
           skillname: "Keep Rollin' Rollin' Rollin'! (Shiro)",
@@ -71,7 +71,7 @@ const ShiroKuro = {
               significant amount and <b>damage taken</b> by 50% for 40s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill2.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill2.png",
         },
         {
           skillname: "Charge!!! (Kuro)",
@@ -84,7 +84,7 @@ const ShiroKuro = {
               significant amount and <b>damage taken</b> by 50% for 40s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill3.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill3.png",
         },
         {
           skillname: "Apathy Syndrome (Kuro)",
@@ -94,7 +94,7 @@ const ShiroKuro = {
               <b> movement speed</b> by 80% for 40s.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill4.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill4.png",
         },
         {
           skillname: "Horror of Slumpia",
@@ -104,7 +104,7 @@ const ShiroKuro = {
               <b> cannot be removed</b>.
             </p>
           ),
-          url: "BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill5.png",
+          url: "/BlueArchive_Raid_Boss_App/images/Boss/ShiroKuro/ShiroKuro_skill5.png",
         },
       ],
     },
