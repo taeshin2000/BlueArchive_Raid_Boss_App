@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Blue_Archive_Raid_Boss_App/static/css/main.c1520c99.css",
+    "main.js": "/Blue_Archive_Raid_Boss_App/static/js/main.6db1c8dd.js",
+    "static/js/787.b438b696.chunk.js": "/Blue_Archive_Raid_Boss_App/static/js/787.b438b696.chunk.js",
+    "index.html": "/Blue_Archive_Raid_Boss_App/index.html",
+    "main.c1520c99.css.map": "/Blue_Archive_Raid_Boss_App/static/css/main.c1520c99.css.map",
+    "main.6db1c8dd.js.map": "/Blue_Archive_Raid_Boss_App/static/js/main.6db1c8dd.js.map",
+    "787.b438b696.chunk.js.map": "/Blue_Archive_Raid_Boss_App/static/js/787.b438b696.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1520c99.css",
+    "static/js/main.6db1c8dd.js"
+  ]
+}
