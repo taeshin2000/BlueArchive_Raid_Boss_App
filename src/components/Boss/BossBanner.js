@@ -103,9 +103,9 @@ export default function BossBanner({ className }) {
       </div>
       {raidData ? (
         <img
-          src={`/images/Boss/${raidData.bossName?.split("_")[0]}/${
-            raidData.bossName.split("_")[0]
-          }_Banner.png`}
+          src={`BlueArchive_Raid_Boss_App/images/Boss/${
+            raidData.bossName?.split("_")[0]
+          }/${raidData.bossName.split("_")[0]}_Banner.png`}
           alt="Binah"
           height={120}
         />

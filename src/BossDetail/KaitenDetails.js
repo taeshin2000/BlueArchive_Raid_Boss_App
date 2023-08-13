@@ -14,7 +14,7 @@ const Kaiten = {
               circular area.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill1.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill1.png",
         },
         {
           skillname: "MUGEN KAITEN ・ HYPER SARDINE MISSILES",
@@ -23,7 +23,7 @@ const Kaiten = {
               Chest (Red): Deals <b>300% damage</b> to all enemies.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill2.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill2.png",
         },
         {
           skillname: "MUGEN KAITEN ・ ULTRA PLATE SHIELD",
@@ -33,7 +33,7 @@ const Kaiten = {
               is removed after taking 10 hits from any EX skill.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill3.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill3.png",
         },
         {
           skillname: "MUGEN KAITEN ・ FINAL MACKEREL SLASH",
@@ -43,7 +43,7 @@ const Kaiten = {
               blocked or evaded.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill4.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill4.png",
         },
         {
           skillname: "Set Your Heart Ablaze...... It's not over yet",
@@ -62,7 +62,7 @@ const Kaiten = {
               end of battle.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill5.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill5.png",
         },
       ],
       insane: [
@@ -74,7 +74,7 @@ const Kaiten = {
               circular area.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill1.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill1.png",
         },
         {
           skillname: "MUGEN KAITEN ・ HYPER SARDINE MISSILES",
@@ -83,7 +83,7 @@ const Kaiten = {
               Chest (Red): Deals <b>300% damage</b> to all enemies.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill2.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill2.png",
         },
         {
           skillname: "MUGEN KAITEN ・ ULTRA PLATE SHIELD",
@@ -93,7 +93,7 @@ const Kaiten = {
               is removed after taking 10 hits from any EX skill.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill3.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill3.png",
         },
         {
           skillname: "MUGEN KAITEN ・ FINAL MACKEREL SLASH",
@@ -103,7 +103,7 @@ const Kaiten = {
               blocked or evaded.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill4.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill4.png",
         },
         {
           skillname: "Set Your Heart Ablaze...... It's not over yet",
@@ -123,7 +123,7 @@ const Kaiten = {
               the corresponding EX skill until the end of battle.
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill5.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill5.png",
         },
         {
           skillname: "MUGEN KAITEN・ Mega Egg Overcharge",
@@ -132,7 +132,7 @@ const Kaiten = {
               Feet (Yellow): <b>Increases attack</b> by 4,000 for 30s
             </p>
           ),
-          url: "/images/Boss/Kaiten/Kaiten_skill6.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Kaiten/Kaiten_skill6.png",
         },
       ],
     },

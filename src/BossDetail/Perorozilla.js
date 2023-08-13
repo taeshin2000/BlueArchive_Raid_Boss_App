@@ -14,7 +14,7 @@ const Perorozilla = {
               continuously deals <b>90% damage</b> to them for 10s.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill1.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill1.png",
         },
         {
           skillname: "Bubble",
@@ -23,7 +23,7 @@ const Perorozilla = {
               Deals <b>400% damage</b> to one enemy.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill2.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill2.png",
         },
         {
           skillname: "Majesty's Mercy",
@@ -38,7 +38,7 @@ const Perorozilla = {
               down peroros.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill3.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill3.png",
         },
         {
           skillname: "Absorb Perorominions",
@@ -52,7 +52,7 @@ const Perorozilla = {
               taken by Perorodzilla.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill4.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill4.png",
         },
         {
           skillname: "Hyper Spiral Eye Laser",
@@ -61,7 +61,7 @@ const Perorozilla = {
               When ATG gauge is full, Deals <b>300% damage</b> to all enemies.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill5.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill5.png",
         },
       ],
       insane: [
@@ -75,7 +75,7 @@ const Perorozilla = {
               <b>250% damage</b> to enemies within a fan-shaped area.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill1.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill1.png",
         },
         {
           skillname: "Bubble",
@@ -84,7 +84,7 @@ const Perorozilla = {
               Deals <b>400% damage</b> to one enemy.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill2.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill2.png",
         },
         {
           skillname: "Majesty's Mercy",
@@ -101,7 +101,7 @@ const Perorozilla = {
               Peroros in a circular area around it.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill3.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill3.png",
         },
         {
           skillname: "Absorb Perorominions",
@@ -115,7 +115,7 @@ const Perorozilla = {
               taken by Perorodzilla.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill4.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill4.png",
         },
         {
           skillname: "Hyper Spiral Eye Laser",
@@ -124,7 +124,7 @@ const Perorozilla = {
               When ATG gauge is full, Deals <b>300% damage</b> to all enemies.
             </p>
           ),
-          url: "/images/Boss/Perorozilla/Perorozilla_skill5.png",
+          url: "BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_skill5.png",
         },
       ],
     },

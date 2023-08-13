@@ -25,7 +25,10 @@ const Navbar = ({ pageNumber }) => {
           borderRadius: "0px 0px 0px 20px",
         }}
       >
-        <img src="/images/Blue_Archive_logo.svg.png" width={150}></img>
+        <img
+          src="BlueArchive_Raid_Boss_App/images/Blue_Archive_logo.svg.png"
+          width={150}
+        ></img>
       </div>
       <div style={{ display: "flex", alignItems: "center" }}>
         <NavItem
