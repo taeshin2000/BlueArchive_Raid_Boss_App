@@ -23,8 +23,8 @@ const bossIconUrl = [
     url: "/BlueArchive_Raid_Boss_App/images/Boss/Perorozilla/Perorozilla_Icon.png",
   },
   {
-    bossName: "Hod",
-    url: "/BlueArchive_Raid_Boss_App/images/Boss/Hod/Hod_Icon.png",
+    bossName: "HOD",
+    url: "/BlueArchive_Raid_Boss_App/images/Boss/HOD/HOD_Icon.png",
   },
   {
     bossName: "Goz",

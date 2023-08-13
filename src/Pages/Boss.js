@@ -42,7 +42,7 @@ export default function Boss() {
         <div style={{ display: "flex" }}>
           <BossIcon bossName={"Binah"} />
           <BossIcon bossName={"ShiroKuro"} />
-          <BossIcon bossName={"Hod"} />
+          <BossIcon bossName={"HOD"} />
           <BossIcon bossName={"Chesed"} />
         </div>
         <div style={{ display: "flex" }}>

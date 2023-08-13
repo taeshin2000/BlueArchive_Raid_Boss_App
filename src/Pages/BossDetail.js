@@ -14,7 +14,7 @@ export default function BossDetail() {
   const [bossArmorType, setBossArmorType] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState(1);
   const [selectedTerrain, setSelectedTerrain] = useState(1);
-  const [firstTerrain, setFirstTerrain] = useState("HI");
+  const [firstTerrain, setFirstTerrain] = useState("");
   const [secondTerrain, setSecondTerrain] = useState("");
   const [normalSkills, setNormalSkills] = useState([]);
   const [insaneSkills, setInsaneSkills] = useState([]);
