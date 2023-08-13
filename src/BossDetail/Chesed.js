@@ -110,7 +110,7 @@ const Chesed = {
             { displayName: "Momoi", name: "momoi" },
             { displayName: "Midori", name: "midori" },
             { displayName: "Ako", name: "ako" },
-            { displayName: "Himari", name: "ch0069" },
+            { displayName: "Himari", name: "ch0159" },
           ],
         },
         {
@@ -121,7 +121,7 @@ const Chesed = {
             { displayName: "Cherino", name: "cherino" },
             { displayName: "Iori", name: "iori" },
             { displayName: "Ako", name: "ako" },
-            { displayName: "Himari", name: "ch0069" },
+            { displayName: "Himari", name: "ch0159" },
           ],
         },
         {
